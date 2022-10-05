@@ -1,0 +1,35 @@
+
+
+body {
+    font-size: 1.1rem;
+    /* min-height: 200vh; */
+    overflow-x: hidden;
+}
+
+.navbar-brand img{
+    width: 15%;
+}
+
+.navbar-nav > li > a {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+footer {
+    background-color: black;
+    min-height: 30vh;
+    color: white;
+}
+
+footer > .fontawesome {
+    text-align: center;
+    
+}
+.fontawesome > a {
+    color: white;
+}
+
+.fontawesome > a:hover {
+    color: red;
+}
