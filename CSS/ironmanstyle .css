@@ -1,0 +1,180 @@
+html {}
+
+body {
+    font-size: 1.1rem;
+    min-height: 200vh;
+    overflow-x: hidden;
+}
+
+.navbar-brand img{
+    width: 15%;
+}
+
+.navbar-nav > li > a {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 1400px) {
+    .navbar-brand > img {
+        width: 10%;
+    }
+   
+        
+}
+
+@media (max-width: 1399px) {
+    .navbar-brand > img {
+        width: 15%;
+    }
+      
+}
+
+@media (max-width: 1199px) {
+    .navbar-brand > img {
+        width: 15%;
+    }
+       
+}
+
+@media (max-width: 991px) {
+    .navbar-brand > img {
+        width: 20%;
+    }
+      
+}
+
+@media (max-width: 768px) {
+    .navbar-brand > img {
+        width: 25%;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .navbar-brand > img {
+        width: 25%;
+    }
+    
+}
+
+
+.imgContainer > img {
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.imgCaption {
+    position: absolute;
+    top: 80%;
+    left: 23%;
+    font-size: 1.4rem;
+    color: white;
+}
+
+
+.vdoironman {
+    font-size: 1.6rem;
+}
+
+.vdoContainer > iframe {
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.charCaption{
+    font-size: 1.6rem;
+}
+
+.charImg > img {
+    width: 70%;
+}
+
+.weaponContainer {
+    background-color: black;
+    min-height: 100vh;
+}
+.weaponContainer mt-5{
+    display: grid;
+}
+
+
+.weaponTitle {
+    color: white;
+    font-size: 1.8rem;
+    padding-top: 5%;
+    padding-left: 10%;
+    
+}
+
+
+.weaponKit > .shield4, .shield5 {
+    width: 18%;
+    margin-top: 5%;
+}
+
+.weaponKit > .shield1 {
+    width: 17%;
+    margin-top: 5%;
+}
+
+.weaponKit > .shield2 {
+    width: 17%;
+    margin-top: 5%;
+}
+
+.weaponKit > .shield3 {
+    width: 17%;
+    margin-top: 5%;
+}
+
+
+.shield1:hover, 
+.shield2:hover, 
+.shield3:hover,
+.shield4:hover,
+.shield5:hover {
+    animation-name: spinY;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinY {
+    0% {transform: rotateY(0deg);}
+    16.67% {transform: rotateY(90deg);}
+    33.33% {transform: rotateY(180deg);}
+    50% {transform: rotateY(270deg);}
+    66.67% {transform: rotateY(180deg);}
+    83.34% {transform: rotateY(90deg);}
+    100% {transform: rotateY(0deg);}
+}
+
+.carouselContainer {
+    margin: 5% 2%;
+}
+
+.appearedTitle {
+    font-size: 1.6rem;
+}
+
+
+footer {
+    background-color: black;
+    min-height: 30vh;
+    color: white;
+}
+
+footer > .fontawesome {
+    text-align: center;
+    
+}
+
+.fontawesome > a {
+    color: white;
+}
+
+.fontawesome > a:hover {
+    color: red;
+}
