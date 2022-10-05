@@ -58,7 +58,7 @@
   </nav>
 
   <div class="imgContainer">
-    <img src="./images/Hulk/hero-img 1.jpeg" alt="Hulk" width="100%" />
+    <img class='img-fluid' src="./images/Hulk/hero-img 1.jpeg" alt="Hulk" width="100%" />
     <div class="imgCaption fw-bold">Hulk</div>
   </div>
 
@@ -74,13 +74,34 @@
   </div>
 
 
+  <!-- 21:9 aspect ratio -->
+  <div class="embed-responsive embed-responsive-21by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AWqHVy9VULg"></iframe>
+  </div>
+
+  <!-- 16:9 aspect ratio -->
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AWqHVy9VULg"></iframe>
+  </div>
+
+  <!-- 4:3 aspect ratio -->
+  <div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AWqHVy9VULg"></iframe>
+  </div>
+
+  <!-- 1:1 aspect ratio -->
+  <div class="embed-responsive embed-responsive-1by1">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AWqHVy9VULg"></iframe>
+  </div>
+
+
   <div class="container charDescription">
     <div class="charCaption fw-bold mt-5 mb-5">Hulk - Marvel 101</div>
 
     <div class="container charBackground mt-5">
       <div class="row">
-        <div class="charImg col-6">
-          <img src="./images/Hulk/hero-img 2.png" alt="Captain_America" />
+        <div class="charImg col-6 col-sm-12  ">
+          <img class="img-fluid" src="./images/Hulk/hero-img 2.png" alt="Hulk" />
         </div>
 
         <div class="charText col-6">
@@ -99,18 +120,6 @@
       </div>
     </div>
   </div>
-<!-- 
-  <div class="weaponContainer mt-5">
-    <div class="weaponTitle fw-bold">Weapon</div>
-    <div class="weaponKit">
-      <img src="./images/CaptainAmerica/Captain_America_Shield_1.png" alt="Weapon - Shield1" class="shield1" />
-      <img src="./images/CaptainAmerica/Captain_America_Shield_2.png" alt="Weapon - Shield2" class="shield2" />
-      <img src="./images/CaptainAmerica/Captain_America_Shield_3.png" alt="Weapon - Shield3" class="shield3" />
-      <img src="./images/CaptainAmerica/Captain_America_Shield_4.svg.png" alt="Weapon - Shield4" class="shield4 me-3" />
-      <img src="./images/CaptainAmerica/Captain_America_Shield_5.jpg" alt="Weapon - Shield5" class="shield5" />
-    </div>
-  </div> -->
-
 
 
   <div class="carouselContainer">
@@ -165,16 +174,18 @@
             <p>This is the Hulk.</p>
           </div>
         </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
   </div>
 
 
