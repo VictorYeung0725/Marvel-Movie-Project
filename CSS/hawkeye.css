@@ -65,13 +65,11 @@
 background-color: white;
 }
 
-.imgContainerlogo{
+/* .imgContainerlogo{
     display: flex;
     top: 50px;
     left: 120px;
-  
-
-}
+} */
 
 
 .charImg > img {
@@ -92,10 +90,10 @@ background-color: white;
     background-color: white;
 }
 
-#heyep{
+/* #heyep{
 width: 420;
 height: 720;
-}
+} */
 /*weaponTitle */
 
 .carouselContainer {
