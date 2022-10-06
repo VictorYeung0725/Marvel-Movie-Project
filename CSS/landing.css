@@ -33,3 +33,39 @@ footer > .fontawesome {
 .fontawesome > a:hover {
     color: red;
 }
+
+@media (min-width: 1400px) {
+    .navbar-brand > img {
+        width: 10%;
+    }  
+}
+
+@media (max-width: 1399px) {
+    .navbar-brand > img {
+        width: 15%;
+    } 
+}
+
+@media (max-width: 1199px) {
+    .navbar-brand > img {
+        width: 15%;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-brand > img {
+        width: 20%;
+    } 
+}
+
+@media (max-width: 768px) {
+    .navbar-brand > img {
+        width: 25%;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar-brand > img {
+        width: 25%;
+    }
+}
