@@ -53,7 +53,7 @@
     </nav>
 
     <div class="imgContainer">
-        <img src="./images/CaptainAmerica/captain_america_conv.png" alt="Captain America" />
+        <img src="./images/CaptainAmerica/captain_america_conv.png" alt="Captain America" class="img-fluid"/>
         <div class="imgCaption fw-bold">Captain America</div>
     </div>
 
@@ -63,8 +63,11 @@
         <div class="vdoCaption fw-bold mt-5 mb-5 ms-5">FEATURED VIDEO</div>
         <!-- <iframe class="" width="560" height="315" src="https://www.youtube.com/embed/AnbXnWRnmHY?start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         <!-- <iframe width="1140" height="640" src="https://www.youtube-nocookie.com/embed/hLUdF8cjzyA?start=22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-        <iframe width="1140" height="640" src="https://www.youtube-nocookie.com/embed/b7sIY-yjQ0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+        <div class="row">
+            <iframe width="1140" height="640" src="https://www.youtube-nocookie.com/embed/b7sIY-yjQ0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-12"></iframe>
+        </div>
+        
+    </div> 
 
 
     <div class="container charDescription">
@@ -72,11 +75,11 @@
         
         <div class="container charBackground mt-5">
             <div class="row">
-                <div class="charImg col-6">
+                <div class="charImg col-6 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <img src="./images/CaptainAmerica/Gmod_Captain_America.jpg" alt="Captain_America" />
                 </div>
                 
-                <div class="charText col-6">
+                <div class="charText col-6 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <p class="mt-5">During WWII, the patriotic Steve Rogers was offered a place in the military's top operation: Rebirth. Injected with an experimental super-serum, Rogers emerged from the treatment with heightened endurance, strength, and reaction time. With extensive training and an indestructible Vibranium shield, Rogers soon became the country's ultimate weapon: <b>CAPTAIN AMERICA!</b></p>
                     <p>Though frozen in ice during a climactic battle toward the end of the war, Rogers was discovered and revived decades later. Now the living legend continues the war against evil in modern times as a member of The Avengers!</p>
     
@@ -91,12 +94,14 @@
 
     <div class="weaponContainer mt-5">
         <div class="weaponTitle fw-bold">Weapon</div>
-        <div class="weaponKit">
-            <img src="./images/CaptainAmerica/Captain_America_Shield_1.png" alt="Weapon - Shield1" class="shield1" />
-            <img src="./images/CaptainAmerica/Captain_America_Shield_2.png" alt="Weapon - Shield2" class="shield2" />
-            <img src="./images/CaptainAmerica/Captain_America_Shield_3.png" alt="Weapon - Shield3" class="shield3" />
-            <img src="./images/CaptainAmerica/Captain_America_Shield_4.svg.png" alt="Weapon - Shield4" class="shield4 me-3" />
-            <img src="./images/CaptainAmerica/Captain_America_Shield_5.jpg" alt="Weapon - Shield5" class="shield5" />
+        <div class="row">
+            <div class="weaponKit col-12">
+                <img src="./images/CaptainAmerica/Captain_America_Shield_1.png" alt="Weapon - Shield1" class="shield1" class="img-fluid" />
+                <img src="./images/CaptainAmerica/Captain_America_Shield_2.png" alt="Weapon - Shield2" class="shield2" class="img-fluid" />
+                <img src="./images/CaptainAmerica/Captain_America_Shield_3.png" alt="Weapon - Shield3" class="shield3" class="img-fluid" />
+                <img src="./images/CaptainAmerica/Captain_America_Shield_4.svg.png" alt="Weapon - Shield4" class="shield4 me-3" class="img-fluid" />
+                <img src="./images/CaptainAmerica/Captain_America_Shield_5.jpg" alt="Weapon - Shield5" class="shield5 ms-3" class="img-fluid" />
+            </div>
         </div>
     </div>
 
@@ -214,7 +219,7 @@
     </footer>
     
 
-
+    
     <!-- BootStrap JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <!-- Fontawesome icon js -->
